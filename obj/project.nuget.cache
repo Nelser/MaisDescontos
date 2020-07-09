@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2qBBY62hrE2iT8h7/LkkppMm3HKkEy0o9dTgV2Ng1WSBy4lnuzswyIae00tOb6YpCp0HmbOJYlHZYeBoLT6Xow==",
+  "success": true,
+  "projectFilePath": "/home/felipe/Documentos/VSCode-Projetos/DevOps/MaisDescontos Backend/MaisDescontos/MaisDescontos.csproj",
+  "expectedPackageFiles": [
+    "/home/felipe/.nuget/packages/flunt/1.0.5/flunt.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
