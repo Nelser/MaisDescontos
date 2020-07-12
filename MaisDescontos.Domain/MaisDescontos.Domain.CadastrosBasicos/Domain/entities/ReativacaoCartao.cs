@@ -47,7 +47,6 @@ namespace MaisDescontos.Domain.CadastrosBasicos.Domain.entities
                                 string morada,
                                 string provincia,
                                 string pais,
-                                string dataVenda,
                                 string email,
                                 string senha,
                                 string escolhaModelo):base(id)
@@ -57,7 +56,6 @@ namespace MaisDescontos.Domain.CadastrosBasicos.Domain.entities
             Morada = morada;
             Provincia = provincia;
             Pais = pais;
-            DataVenda = dataVenda;
             Email = email;
             Senha = senha;
             EscolhaModelo = escolhaModelo;

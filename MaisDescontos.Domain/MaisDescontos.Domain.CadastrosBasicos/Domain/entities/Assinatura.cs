@@ -8,16 +8,16 @@ namespace MaisDescontos.Domain.CadastrosBasicos.Domain.entities
         #region Atributos
         public string Valor { get; set; }
         public string TipoAssinatura { get; set; }
-        public string DataInicio { get; set; }
-        public string DataFim { get; set; }
+        public DateTime DataInicio { get; set; }
+        public DateTime DataFim { get; set; }
         #endregion
         #region Construtores
         private Assinatura(){}
-        public Assinatura(string valor, string tipoAssinatura, string inicio, string fim)
+        public Assinatura(string valor, string tipoAssinatura, DateTime fim)
         {
             Valor = valor;
             TipoAssinatura = tipoAssinatura;
-            DataInicio = inicio;
+            DataInicio = DateTime.Now;
             DataFim = fim;
             Validar();
         }

@@ -3,7 +3,7 @@ using MaisDescontos.Domain.Core.Entities;
 
 namespace MaisDescontos.Domain.CadastrosBasicos.Domain.entities
 {
-    public class Dependentes : BaseEntity
+    public class Dependente : BaseEntity
     {
         #region Atributos
         public string Nome { get; set; }
@@ -15,8 +15,8 @@ namespace MaisDescontos.Domain.CadastrosBasicos.Domain.entities
         public string GrauParentesco { get; set; }
         #endregion
         #region Construtores
-        private Dependentes(){}
-        public Dependentes(string nome,
+        private Dependente(){}
+        public Dependente(string nome,
                            string telefone,
                            int idade,
                            string foto,
@@ -33,7 +33,7 @@ namespace MaisDescontos.Domain.CadastrosBasicos.Domain.entities
             GrauParentesco = grauParentesco;
             Validar();
         }
-        public Dependentes(Guid id,
+        public Dependente(Guid id,
                            string nome,
                            string telefone,
                            int idade,

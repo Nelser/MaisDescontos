@@ -15,7 +15,12 @@ namespace MaisDescontos.Domain.CadastrosBasicos.Domain.entities
         #endregion
         #region Construtores
         private Vendedor(){}
-        public Vendedor(string nome, string morada, string provincia, string telefone, string email, string senha)
+        public Vendedor(string nome,
+                        string morada,
+                        string provincia,
+                        string telefone,
+                        string email,
+                        string senha)
         {
             Nome = nome;
             Morada = morada;
@@ -25,7 +30,13 @@ namespace MaisDescontos.Domain.CadastrosBasicos.Domain.entities
             Senha = senha;
             Validar();
         }
-        public Vendedor(Guid id, string nome, string morada, string provincia, string telefone, string email, string senha): base(id)
+        public Vendedor(Guid id,
+                        string nome,
+                        string morada,
+                        string provincia,
+                        string telefone,
+                        string email,
+                        string senha) : base(id)
         {
             Nome = nome;
             Morada = morada;
